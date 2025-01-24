@@ -6,7 +6,7 @@ async function main() {
     await connect();
     //SERVER CONNECTION
     await app.listen(3000);
-    await console.log("serviridor iniciado en puerto 3000:Conected");
+    await console.log("Server is running on port 3000:Conected");
 }
 
 main();
